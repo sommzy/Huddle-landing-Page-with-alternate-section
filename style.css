@@ -14,7 +14,7 @@ body {
 
 header {
   padding: 35px 50px;
-  background-image: url(images/bg-hero-desktop.svg);
+  background-image: url(bg-hero-desktop.svg);
   height: 630px;
   background-color: hsl(193, 100%, 96%);
 }
