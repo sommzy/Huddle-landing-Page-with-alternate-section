@@ -139,3 +139,77 @@ footer {
   font-weight: 400;
   padding: 25px 0px;
 }
+
+.none {
+  display: none;
+}
+
+.copyright {
+  float: right;
+  text-align: right;
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+@media screen and (max-width:800px) {
+  header {
+    background-image: url(bg-hero-mobile.svg);
+    height: fit-content;
+  }
+
+  .second-flex_box {
+    flex-direction: column;
+  }
+
+  .none {
+    display: block;
+  }
+
+  .illustration {
+    width: 100%;
+  }
+
+  .brnone {
+    display: none;
+  }
+
+  .textbox {
+    text-align: center;
+  }
+
+  .medium-alternate_box {
+    flex-direction: column-reverse;
+    height: fit-content;
+  }
+
+  .last-medium_box {
+    padding: 0 1.5rem;
+
+  }
+
+  .the_middle_box {
+    height: fit-content;
+    line-height: 2.0;
+    padding-bottom: 3rem;
+  }
+
+  .copyright {
+    text-align: center;
+    float: none;display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-flex {
+    flex-direction: column;
+    line-height: 1.4;
+  }
+
+  .the_middle_box h1 {
+    font-size: 30px;
+  }
+
+  footer {
+    height: fit-content;
+  }.third_alike-button{padding: 10px 35px;}
+}
